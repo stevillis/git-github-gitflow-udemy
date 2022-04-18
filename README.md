@@ -23,6 +23,14 @@
   ```
 
 - Remover arquivos da staging (remove da staging e apaga o arquivo)
+
   ```bash
   $ git rm -f arquivo
+  ```
+
+- Realizar commit
+  ```bash
+  $ git commit
+  # or
+  $ git commit -m "mensagem"
   ```
