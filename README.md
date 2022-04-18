@@ -29,8 +29,14 @@
   ```
 
 - Realizar commit
+
   ```bash
   $ git commit
-  # or
+  # ou
   $ git commit -m "mensagem"
+  ```
+
+- Status do repositório
+  ```bash
+  $ git status
   ```
