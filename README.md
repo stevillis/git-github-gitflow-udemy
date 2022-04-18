@@ -2,6 +2,8 @@
 
 ## Comandos Git
 
+#### Repositório
+
 - Inicializar repositório
 
   ```bash
@@ -37,6 +39,15 @@
   ```
 
 - Status do repositório
+
   ```bash
   $ git status
   ```
+
+- Desfazer alterações em um arquivo (versionado) antes de adicioná-lo ao staging
+
+  ```bash
+  $ git checkout -- arquivo
+  ```
+
+---
