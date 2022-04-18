@@ -50,6 +50,12 @@
   $ git checkout -- arquivo
   ```
 
+- Histórico
+
+  ```bash
+  $ git log
+  ```
+
 ---
 
 #### Repositório Remoto
