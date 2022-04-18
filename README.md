@@ -9,6 +9,7 @@
   ```
 
 - Adicionar arquivos para staging
+
   ```bash
   $ git add .
   # ou
@@ -19,5 +20,9 @@
   $ git add diretorio/
   # ou
   $ git add --all
+  ```
 
+- Remover arquivos da staging (remove da staging e apaga o arquivo)
+  ```bash
+  $ git rm -f arquivo
   ```
