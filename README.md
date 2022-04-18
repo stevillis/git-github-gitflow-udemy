@@ -79,3 +79,9 @@
   ```bash
   $ git pull
   ```
+
+- Sincronizar referências do repositório local com o repositório remoto (sem fazer merge)
+
+  ```bash
+  $ git fetch
+  ```
