@@ -65,3 +65,11 @@
   ```bash
   $ git push --set-upstream origin master
   ```
+
+- Enviar alterações para o repositório remoto, onde a branch remota já tenha sido configurada
+
+  ```bash
+  $ git push
+  # ou
+  $ git push origin nome_da_branch
+  ```
