@@ -50,7 +50,7 @@
   $ git checkout -- arquivo
   ```
 
-- Histórico
+- Histórico de alterações no repositório
 
   ```bash
   $ git log
