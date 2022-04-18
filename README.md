@@ -55,6 +55,13 @@
 #### Repositório Remoto
 
 - Adicionar repositório remoto
+
   ```bash
   $ git remote add origin url_repositorio_remoto.git
+  ```
+
+- Configurar o branch padrão ao enviar alterações do repositório local para o repositório remoto
+
+  ```bash
+  $ git push --set-upstream origin master
   ```
