@@ -73,3 +73,9 @@
   # ou
   $ git push origin nome_da_branch
   ```
+
+- Atualizar repositório local com as alterações do repositório remoto
+
+  ```bash
+  $ git pull
+  ```
