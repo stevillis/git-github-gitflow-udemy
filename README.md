@@ -2,7 +2,7 @@
 
 ## Comandos Git
 
-#### Repositório
+#### Repositório Local
 
 - Inicializar repositório
 
@@ -51,3 +51,10 @@
   ```
 
 ---
+
+#### Repositório Remoto
+
+- Adicionar repositório remoto
+  ```bash
+  $ git remote add origin url_repositorio_remoto.git
+  ```
