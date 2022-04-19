@@ -91,3 +91,37 @@
   ```bash
   $ git fetch
   ```
+
+#### Tags
+
+- Criar tag
+
+  ```bash
+  $ git tag versao
+  ```
+
+- Listar tags
+
+  ```bash
+  $ git tag -l
+  ```
+
+- Enviar tags para repositório remoto
+
+  ```bash
+  $ git push origin nome_da_tag # envia uma tag específica
+  # ou
+  $ git push origin --tags # envia todas as tags
+  ```
+
+- Remover uma tag
+
+  ```bash
+  $ git tag -d nome_da_tag
+  ```
+
+- Navegar entre tags
+
+  ```bash
+  $ git checkout nome_da_tag
+  ```
