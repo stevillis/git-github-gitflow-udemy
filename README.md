@@ -92,6 +92,8 @@
   $ git fetch
   ```
 
+---
+
 #### Tags
 
 - Criar tag
@@ -124,4 +126,31 @@
 
   ```bash
   $ git checkout nome_da_tag
+  ```
+
+---
+
+#### Banches
+
+- Criar branch
+
+  ```bash
+  $ git branch nome_da_branch
+  ```
+
+- Listar branches
+
+  ```bash
+  $ git branch
+  ```
+
+- Trocar de branch
+
+  ```bash
+  $ git checkout nome_da_branch
+  ```
+
+- Excluir uma branch
+  ```bash
+  $ git branch -d nome_da_branch
   ```
