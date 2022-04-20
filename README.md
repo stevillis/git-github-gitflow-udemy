@@ -181,8 +181,28 @@
   ```
 
 - Reset - exclui commits anteriores ao commit selecionado
+
   ```bash
   $ git reset hash_do_commit
   # ou
   $ git reset HEAD~quantidade_de_commits_a_serem_excluidos
   ```
+
+- Stash
+
+  - Empilhar alterações versionadas da staging
+
+    ```bash
+    $ git stash
+    ```
+
+  - Desempilhar alterações versionadas da staging
+
+    ```bash
+    $ git stash pop
+    ```
+
+  - Listar alterações empilhadas em stash
+    ```bash
+    $ git stash list
+    ```
