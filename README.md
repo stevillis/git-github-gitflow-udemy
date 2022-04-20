@@ -163,3 +163,9 @@
 
   1. Entrar na branch onde o merge será realizado `$ git checkout nome_da_branch`
   2. Realizar o merge com a segunda branch `$ git merge segunda_branch`
+
+- Rebase
+
+  ```bash
+  $ git rebase nome_branch_de_origem
+  ```
