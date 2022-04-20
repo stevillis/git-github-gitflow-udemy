@@ -169,3 +169,8 @@
   ```bash
   $ git rebase nome_branch_de_origem
   ```
+
+- Cherry-pick
+  ```bash
+  $ git cherry-pick nome_da_branch hash_do_commit
+  ```
