@@ -170,7 +170,19 @@
   $ git rebase nome_branch_de_origem
   ```
 
-- Cherry-pick
+---
+
+#### Commit
+
+- Cherry-pick - adicionar commits de outra branch
+
   ```bash
   $ git cherry-pick nome_da_branch hash_do_commit
+  ```
+
+- Reset - exclui commits anteriores ao commit selecionado
+  ```bash
+  $ git reset hash_do_commit
+  # ou
+  $ git reset HEAD~quantidade_de_commits_a_serem_excluidos
   ```
