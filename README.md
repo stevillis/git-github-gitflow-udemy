@@ -150,6 +150,12 @@
   $ git checkout nome_da_branch
   ```
 
+- Renomear branch
+
+  ```bash
+  git branch -m nome_antigo nome_novo
+  ```
+
 - Excluir uma branch
   ```bash
   $ git branch -d nome_da_branch
