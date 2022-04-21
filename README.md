@@ -206,3 +206,12 @@
     ```bash
     $ git stash list
     ```
+
+---
+
+#### Gitflow
+
+- Inicializar repositório Gitflow
+  ```bash
+  $ git flow init
+  ```
