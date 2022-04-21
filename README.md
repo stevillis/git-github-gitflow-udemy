@@ -211,7 +211,47 @@
 
 #### Gitflow
 
-- Inicializar repositório Gitflow
+- Inicializar repositório
+
   ```bash
   $ git flow init
+  ```
+
+- Iniciar feature
+
+  ```bash
+  $ git flow feature start nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git checkout develop
+  $ git checkout -b feature/nome_da_branch
+  ```
+
+- Publicar feature
+
+  ```bash
+  $ git flow feature publish nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git push --set-upstream feature/nome_da_branch
+  ```
+
+- Finalizar feature
+
+  ```bash
+  $ git flow feature finish nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git checkout develop
+  $ git merge feature/nome_da_branch
+  $ git branch -D feature/nome_da_branch
   ```
