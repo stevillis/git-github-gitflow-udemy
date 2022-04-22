@@ -217,11 +217,15 @@
 
 ## Comandos Gitflow
 
+#### Repositório
+
 - Inicializar repositório
 
   ```bash
   $ git flow init
   ```
+
+#### Feature
 
 - Iniciar feature
 
@@ -262,15 +266,46 @@
   $ git branch -D feature/nome_da_branch
   ```
 
-- Release
+#### Release
+
+- Iniciar release
 
   ```bash
-  $ git flow release finish nome_da_release
+  $ git flow release start nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git flow checkout develop
+  $ git checkout -b release/nome_da_branch
+  ```
+
+- Publicar release
+
+  ```bash
+  $ git flow release publish nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git push --set-upstream origin release/nome_da_branch
+  ```
+
+- Finalizar release
+
+  ```bash
+  $ git flow release finish nome_da_branch
   ```
 
   Equivalente sem extensão git-flow:
 
   ```bash
   $ git checkout master
-  $ git merge release/nome_da_release
+  $ git merge release/nome_da_branch
+  $ git tag release/nome_da_branch
+  $ git checkout develop
+  $ git merge release/nome_da_branch
+  $ git branch -d release/nome_da_branch
   ```
