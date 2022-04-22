@@ -309,3 +309,35 @@
   $ git merge release/nome_da_branch
   $ git branch -d release/nome_da_branch
   ```
+
+#### Hotfix
+
+- Iniciar hotfix
+
+  ```bash
+  $ git flow hotfix start nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git checkout master
+  $ git checkout -b hotfix/nome_da_branch
+  ```
+
+- Finalizar hotfix
+
+  ```bash
+  $ git flow hotfix finish nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+    $ git checkout master
+    $ git merge hotfix/nome_da_branch
+    $ git tag hotfix/nome_da_branch
+    $ git checkout develop
+    $ git merge hotfix/nome_da_branch
+    $ git branch -D hotfix/nome_da_branch
+  ```
