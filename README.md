@@ -215,7 +215,7 @@
 
 ---
 
-#### Gitflow
+## Comandos Gitflow
 
 - Inicializar repositório
 
@@ -260,4 +260,17 @@
   $ git checkout develop
   $ git merge feature/nome_da_branch
   $ git branch -D feature/nome_da_branch
+  ```
+
+- Release
+
+  ```bash
+  $ git flow release finish nome_da_release
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git checkout master
+  $ git merge release/nome_da_release
   ```
