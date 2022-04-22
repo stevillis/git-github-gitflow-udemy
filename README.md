@@ -348,6 +348,7 @@
   ```bash
     $ git checkout master
     $ git merge hotfix/nome_da_branch
+    $ git tag hotfix/nome_da_branch
     $ git checkout develop
     $ git merge hotfix/nome_da_branch
     $ git branch -D hotfix/nome_da_branch
