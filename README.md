@@ -325,6 +325,18 @@
   $ git checkout -b hotfix/nome_da_branch
   ```
 
+- Publicar hotfix
+
+  ```bash
+  $ git flow hotfix publish nome_da_branch
+  ```
+
+  Equivalente sem extensão git-flow:
+
+  ```bash
+  $ git push --set-upstream origin hotfix/nome_da_branch
+  ```
+
 - Finalizar hotfix
 
   ```bash
